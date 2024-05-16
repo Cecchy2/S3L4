@@ -19,7 +19,7 @@ h1{
     margin: 0 2% 0 2%;
     width: 95%;
     height: 40%;
-    background-color: rgb(236, 147, 13);
+    background-color:rgb(131,58,180);
     display: inline-block;
     border: solid 5px;
     border-radius: 2%;
@@ -36,7 +36,8 @@ h1{
     background-color: white;
 }
 .numeroUscito{
-    background-color: aquamarine;
+    background-color: black;
+    color: white
 }
 #btn{
     height: 50px;
