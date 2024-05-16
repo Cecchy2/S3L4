@@ -5,18 +5,18 @@ const cartella = document.getElementById("cartella");
 const createCell = (celle) => {
   for (let i = 0; i < celle; i++) {
     /* console.log(cartella); */
-    const celle = document.createElement("div");
-    celle.classList.add("celle");
+    const cella = document.createElement("div");
+    cella.classList.add("celle");
 
     /* --------------------assegno un id univoco ad ogni cella */
-    celle.id = "cella" + (i + 1);
+    cella.id = "cella" + (i + 1);
 
     const numeroCartella = document.createElement("h1");
     numeroCartella.innerText = i + 1;
     console.log(numeroCartella);
 
-    celle.appendChild(numeroCartella);
-    cartella.appendChild(celle);
+    cella.appendChild(numeroCartella);
+    cartella.appendChild(cella);
     console.log(cartella);
   }
 };
