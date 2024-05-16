@@ -8,7 +8,7 @@ const createCell = (celle) => {
     const cella = document.createElement("div");
     cella.classList.add("celle");
 
-    /* --------------------assegno un id univoco ad ogni cella */
+    /*--assegno un id univoco ad ogni cella così da cambiarle colore quando esce il suo id*/
     cella.id = "cella" + (i + 1);
 
     const numeroCartella = document.createElement("h1");
